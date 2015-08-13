@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Dictionary/Dictionary.xcodeproj">
+      location = "group:/Users/riabinin/play/Dictionary/Problems.xcodeproj">
    </FileRef>
 </Workspace>

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "60BD0C321B7B9CF1008210DA"
-               BuildableName = "Dictionary"
-               BlueprintName = "Dictionary"
-               ReferencedContainer = "container:Dictionary.xcodeproj">
+               BuildableName = "Problems"
+               BlueprintName = "Problems"
+               ReferencedContainer = "container:Problems.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "60BD0C321B7B9CF1008210DA"
-            BuildableName = "Dictionary"
-            BlueprintName = "Dictionary"
-            ReferencedContainer = "container:Dictionary.xcodeproj">
+            BuildableName = "Problems"
+            BlueprintName = "Problems"
+            ReferencedContainer = "container:Problems.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "60BD0C321B7B9CF1008210DA"
-            BuildableName = "Dictionary"
-            BlueprintName = "Dictionary"
-            ReferencedContainer = "container:Dictionary.xcodeproj">
+            BuildableName = "Problems"
+            BlueprintName = "Problems"
+            ReferencedContainer = "container:Problems.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "60BD0C321B7B9CF1008210DA"
-            BuildableName = "Dictionary"
-            BlueprintName = "Dictionary"
-            ReferencedContainer = "container:Dictionary.xcodeproj">
+            BuildableName = "Problems"
+            BlueprintName = "Problems"
+            ReferencedContainer = "container:Problems.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

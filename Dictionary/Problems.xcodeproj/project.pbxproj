@@ -23,8 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		60BD0C331B7B9CF1008210DA /* Dictionary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Dictionary; sourceTree = BUILT_PRODUCTS_DIR; };
-		60BD0C361B7B9CF1008210DA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		60BD0C331B7B9CF1008210DA /* Problems */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Problems; sourceTree = BUILT_PRODUCTS_DIR; };
+		60BD0C361B7B9CF1008210DA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../Problems/main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,7 @@
 		60BD0C2A1B7B9CF1008210DA = {
 			isa = PBXGroup;
 			children = (
-				60BD0C351B7B9CF1008210DA /* Dictionary */,
+				60BD0C351B7B9CF1008210DA /* Problems */,
 				60BD0C341B7B9CF1008210DA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +49,26 @@
 		60BD0C341B7B9CF1008210DA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				60BD0C331B7B9CF1008210DA /* Dictionary */,
+				60BD0C331B7B9CF1008210DA /* Problems */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		60BD0C351B7B9CF1008210DA /* Dictionary */ = {
+		60BD0C351B7B9CF1008210DA /* Problems */ = {
 			isa = PBXGroup;
 			children = (
 				60BD0C361B7B9CF1008210DA /* main.cpp */,
 			);
+			name = Problems;
 			path = Dictionary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		60BD0C321B7B9CF1008210DA /* Dictionary */ = {
+		60BD0C321B7B9CF1008210DA /* Problems */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 60BD0C3A1B7B9CF1008210DA /* Build configuration list for PBXNativeTarget "Dictionary" */;
+			buildConfigurationList = 60BD0C3A1B7B9CF1008210DA /* Build configuration list for PBXNativeTarget "Problems" */;
 			buildPhases = (
 				60BD0C2F1B7B9CF1008210DA /* Sources */,
 				60BD0C301B7B9CF1008210DA /* Frameworks */,
@@ -77,9 +78,9 @@
 			);
 			dependencies = (
 			);
-			name = Dictionary;
+			name = Problems;
 			productName = Dictionary;
-			productReference = 60BD0C331B7B9CF1008210DA /* Dictionary */;
+			productReference = 60BD0C331B7B9CF1008210DA /* Problems */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +97,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 60BD0C2E1B7B9CF1008210DA /* Build configuration list for PBXProject "Dictionary" */;
+			buildConfigurationList = 60BD0C2E1B7B9CF1008210DA /* Build configuration list for PBXProject "Problems" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				60BD0C321B7B9CF1008210DA /* Dictionary */,
+				60BD0C321B7B9CF1008210DA /* Problems */,
 			);
 		};
 /* End PBXProject section */
@@ -205,21 +206,21 @@
 		60BD0C3B1B7B9CF1008210DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Problems;
 			};
 			name = Debug;
 		};
 		60BD0C3C1B7B9CF1008210DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Problems;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		60BD0C2E1B7B9CF1008210DA /* Build configuration list for PBXProject "Dictionary" */ = {
+		60BD0C2E1B7B9CF1008210DA /* Build configuration list for PBXProject "Problems" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60BD0C381B7B9CF1008210DA /* Debug */,
@@ -228,7 +229,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60BD0C3A1B7B9CF1008210DA /* Build configuration list for PBXNativeTarget "Dictionary" */ = {
+		60BD0C3A1B7B9CF1008210DA /* Build configuration list for PBXNativeTarget "Problems" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60BD0C3B1B7B9CF1008210DA /* Debug */,
