@@ -10,5 +10,16 @@
 #define __Problems__Dictionary__
 
 #include <stdio.h>
+#include <string>
+
+using namespace std;
+class Dictionary
+{
+public:
+    void addWord (string str);
+    
+    
+    
+};
 
 #endif /* defined(__Problems__Dictionary__) */
