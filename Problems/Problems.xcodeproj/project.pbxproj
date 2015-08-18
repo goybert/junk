@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		60DB090D1B82C969000F31BE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60DB090C1B82C969000F31BE /* main.cpp */; };
-		60DB09151B82CA3A000F31BE /* Dictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60DB09131B82CA3A000F31BE /* Dictionary.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +25,6 @@
 /* Begin PBXFileReference section */
 		60DB09091B82C969000F31BE /* Problems */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Problems; sourceTree = BUILT_PRODUCTS_DIR; };
 		60DB090C1B82C969000F31BE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		60DB09131B82CA3A000F31BE /* Dictionary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Dictionary.cpp; path = Problems/Dictionary.cpp; sourceTree = "<group>"; };
 		60DB09141B82CA3A000F31BE /* Dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Dictionary.h; path = Problems/Dictionary.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,7 +42,6 @@
 		60DB09001B82C969000F31BE = {
 			isa = PBXGroup;
 			children = (
-				60DB09131B82CA3A000F31BE /* Dictionary.cpp */,
 				60DB09141B82CA3A000F31BE /* Dictionary.h */,
 				60DB090B1B82C969000F31BE /* Problems */,
 				60DB090A1B82C969000F31BE /* Products */,
@@ -124,7 +121,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				60DB090D1B82C969000F31BE /* main.cpp in Sources */,
-				60DB09151B82CA3A000F31BE /* Dictionary.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +237,7 @@
 				60DB09121B82C969000F31BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
