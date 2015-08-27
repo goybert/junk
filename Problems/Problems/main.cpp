@@ -7,12 +7,13 @@
 //
 
 #include <iostream>
+#include "utils.h"
+#include "Burglar.h"
 #include "Dictionary.h"
 
+
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    TestSortedDictionary();
-    
+    TestBurglar();
     int i;
     cin >> i;
     return 0;

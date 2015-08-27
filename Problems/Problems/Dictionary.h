@@ -17,6 +17,7 @@
 #include <iterator>
 #include <cassert>
 #include <unordered_map>
+#include "utils.h"
 
 
 using namespace std;
@@ -115,16 +116,7 @@ ostream &operator << (ostream &os, const SortedDictionary &dict)
     return os;
 }
 
-template <class T>
-ostream &operator << (ostream &os, const vector<T> v)
-{
-    cout << "(";
-    for(auto &s : v)
-        cout << s << ", " ;
-    
-    cout << ")" << endl;
-    return os;
-}
+
 
 void TestSortedDictionary()
 {

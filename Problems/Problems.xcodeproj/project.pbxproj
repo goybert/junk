@@ -23,6 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		60128C481B84ED250040A516 /* Burglar.h */ = {isa = PBXFileReference; indentWidth = 3; lastKnownFileType = sourcecode.c.h; name = Burglar.h; path = Problems/Burglar.h; sourceTree = "<group>"; };
+		60128C491B86AC820040A516 /* utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
 		60DB09091B82C969000F31BE /* Problems */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Problems; sourceTree = BUILT_PRODUCTS_DIR; };
 		60DB090C1B82C969000F31BE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		60DB09141B82CA3A000F31BE /* Dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Dictionary.h; path = Problems/Dictionary.h; sourceTree = "<group>"; };
@@ -42,6 +44,8 @@
 		60DB09001B82C969000F31BE = {
 			isa = PBXGroup;
 			children = (
+				60128C491B86AC820040A516 /* utils.h */,
+				60128C481B84ED250040A516 /* Burglar.h */,
 				60DB09141B82CA3A000F31BE /* Dictionary.h */,
 				60DB090B1B82C969000F31BE /* Problems */,
 				60DB090A1B82C969000F31BE /* Products */,
